@@ -1,0 +1,49 @@
+name: Playwright Tests CI 
+
+on: 
+  push: 
+    branches: 
+     - main
+
+jobs:
+    playwright-tests:
+        runs-on: windows-latest
+        name: Playwright Job
+        
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v3
+              with:
+                node-version: '18'
+                cache: 'npm'  
+             
+            - name: Install Node
+              run: npm install    
+
+            - name: Install Playwright with dependencies
+              run: npx playwright install
+
+            - name: Run Playwright Tests
+              env:
+                COUNTRY: India
+                CI: true
+              run: npx playwright test --reporter=junit --output=playwright-report tests/productSelection.spec.ts
+              
+
+            - name: Debug Playwright Report
+              run: dir .\playwright-report /s
+              
+            - name: Upload Playwright Report Artifact
+              uses: actions/upload-artifact@v3
+              with:
+                name: TestResults
+                path: ./playwright-report
+
+            - name: Publish JUnit Test Results
+              uses: mikepenz/action-junit-report@v3
+              with:
+                report_paths: '**/playwright-report/test-results.xml'
+              continue-on-error: true 
