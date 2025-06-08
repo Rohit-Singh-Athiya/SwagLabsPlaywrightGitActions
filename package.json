@@ -1,0 +1,21 @@
+{
+  "name": "saucelabsautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.29",
+    "eslint": "^9.28.0",
+    "globals": "^16.2.0",
+    "typescript-eslint": "^8.33.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
