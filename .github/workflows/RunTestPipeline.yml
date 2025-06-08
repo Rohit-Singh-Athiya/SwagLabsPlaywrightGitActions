@@ -30,7 +30,7 @@ jobs:
               env:
                 COUNTRY: India
                 CI: true
-              run: npx playwright test --reporter=junit --output=playwright-report tests/
+              run: npx playwright test tests/
               
 
             - name: Debug Playwright Report
@@ -50,5 +50,5 @@ jobs:
             - name: Publish JUnit Test Results
               uses: mikepenz/action-junit-report@v3
               with:
-                report_paths: '**/test-results/test-results.xml'
+                report_paths: '**/playwright-report/test-results.xml'
               continue-on-error: true 
