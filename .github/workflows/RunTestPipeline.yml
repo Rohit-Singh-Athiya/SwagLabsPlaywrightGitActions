@@ -7,6 +7,8 @@ on:
 permissions:
   checks: write       # Needed for junit-report action
   contents: read      # Required for basic repo access
+  pages: write       # Required for deploying to GitHub Pages
+  id-token: write    # Required for GitHub Pages deployment
   
 jobs:
     playwright-tests:
@@ -35,15 +37,6 @@ jobs:
                 CI: true
               run: npx playwright test tests/
               
-
-            - name: Debug Playwright Report
-              shell: bash
-              run: |
-                echo "Root Directory:"
-                ls -la
-                echo "Playwright Report Directory:"
-                ls -la playwright-report
-              
             - name: Upload Playwright Report Artifact
               uses: actions/upload-artifact@v4
               with:
@@ -55,3 +48,11 @@ jobs:
               with:
                 report_paths: '**/playwright-report/test-results.xml'
               continue-on-error: true 
+        
+    deploy-report:
+      needs: playwright-tests
+      name: Deploy Playwright Report
+      uses: ./.github/workflows/deploy-report-pipeline.yml
+      with:
+        artifact-name: TestResults
+        publish-dir: ./playwright-report
