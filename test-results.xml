@@ -1,0 +1,18 @@
+<testsuites id="" name="" tests="5" failures="0" skipped="0" errors="0" time="6.462434999999999">
+<testsuite name="checkoutFlow.spec.ts" timestamp="2025-06-08T18:44:26.694Z" hostname="Test Project" tests="1" failures="0" skipped="0" time="3.859" errors="0">
+<testcase name="Login Test Suite › Login - select product/ Checkout" classname="checkoutFlow.spec.ts" time="3.859">
+</testcase>
+</testsuite>
+<testsuite name="loginTest.spec.ts" timestamp="2025-06-08T18:44:26.694Z" hostname="Test Project" tests="3" failures="0" skipped="0" time="4.669" errors="0">
+<testcase name="Login Test Suite › Login with standard user" classname="loginTest.spec.ts" time="3.527">
+</testcase>
+<testcase name="Login Test Suite › Login with locked user" classname="loginTest.spec.ts" time="0.553">
+</testcase>
+<testcase name="Login Test Suite › Login with incorrect user" classname="loginTest.spec.ts" time="0.589">
+</testcase>
+</testsuite>
+<testsuite name="productSelection.spec.ts" timestamp="2025-06-08T18:44:26.694Z" hostname="Test Project" tests="1" failures="0" skipped="0" time="0.782" errors="0">
+<testcase name="Login Test Suite › Login - select product " classname="productSelection.spec.ts" time="0.782">
+</testcase>
+</testsuite>
+</testsuites>
