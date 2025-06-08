@@ -53,7 +53,7 @@ jobs:
     deploy-report:
       needs: playwright-tests
       name: Deploy Playwright Report
-      uses: ./.github/workflows/deploy-report-pipeline.yml
+      uses: ./.github/workflows/deploy-report-to-page.yml
       with:
         artifact-name: TestResults
         publish-dir: ./playwright-report
