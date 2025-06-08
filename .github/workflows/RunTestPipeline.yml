@@ -30,7 +30,7 @@ jobs:
               env:
                 COUNTRY: India
                 CI: true
-              run: npx playwright test --reporter=junit --output=playwright-report tests/productSelection.spec.ts
+              run: npx playwright test --reporter=junit --output=playwright-report tests/
               
 
             - name: Debug Playwright Report
