@@ -30,11 +30,17 @@ jobs:
               env:
                 COUNTRY: India
                 CI: true
-              run: npx playwright test --reporter=junit --output=playwright-report tests/productSelection.spec.ts
+              run: npx playwright test --reporter=junit:test-results/test-results.xml --output=playwright-report tests/productSelection.spec.ts
               
 
             - name: Debug Playwright Report
-              run: dir .\playwright-report /s
+              run: |
+                echo "Root Directory:"
+                dir
+                echo "Playwright Report Directory:"
+                dir .\playwright-report /s
+                echo "Test Results Directory:"
+                dir .\test-results /s
               
             - name: Upload Playwright Report Artifact
               uses: actions/upload-artifact@v4
@@ -45,5 +51,5 @@ jobs:
             - name: Publish JUnit Test Results
               uses: mikepenz/action-junit-report@v3
               with:
-                report_paths: '**/playwright-report/test-results.xml'
+                report_paths: '**/test-results/test-results.xml'
               continue-on-error: true 
