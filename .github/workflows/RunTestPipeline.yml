@@ -4,9 +4,10 @@ on:
   push: 
     branches: 
      - main
+
 permissions:
   checks: write       # Needed for junit-report action
-  contents: read      # Required for basic repo access
+  contents: write      # Required for basic repo access
   pages: write       # Required for deploying to GitHub Pages
   id-token: write    # Required for GitHub Pages deployment
   
