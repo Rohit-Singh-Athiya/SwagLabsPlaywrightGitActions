@@ -34,13 +34,12 @@ jobs:
               
 
             - name: Debug Playwright Report
+              shell: bash
               run: |
                 echo "Root Directory:"
-                dir
+                ls -la
                 echo "Playwright Report Directory:"
-                dir .\playwright-report /s
-                echo "Test Results Directory:"
-                dir .\test-results /s
+                ls -la playwright-report
               
             - name: Upload Playwright Report Artifact
               uses: actions/upload-artifact@v4
