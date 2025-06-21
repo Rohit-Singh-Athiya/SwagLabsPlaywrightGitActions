@@ -19,7 +19,7 @@ export default defineConfig({
   testDir: './tests',
   reporter: [['html'], 
              ['junit', { outputFile: './playwright-report/test-results.xml' }],
-             ['json', { outputFile: './playwright-report/test-results-json.json'}]],
+             ['json', { outputFile: './dashboard/test-results-json.json'}]],
   projects: [createProject(envCountry)],
   use: {
     trace: 'on-first-retry',
