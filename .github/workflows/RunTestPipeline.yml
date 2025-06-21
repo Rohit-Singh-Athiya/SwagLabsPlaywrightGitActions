@@ -50,13 +50,16 @@ jobs:
                 report_paths: '**/playwright-report/test-results.xml'
               continue-on-error: true 
 
-            - name: Generate summary JSON
-              run: node ./dashboards/generate-summary.js
-        
-    deploy-report:
+            - name: Upload Dashboard Artifact
+              uses: actions/upload-artifact@v4
+              with:
+                name: Dashboard
+                path: dashboard
+                
+    deploy-dashboard:
       needs: playwright-tests
-      name: Deploy Playwright Report
+      name: Deploy Playwright Dashboard
       uses: ./.github/workflows/deploy-report-to-page.yml
       with:
-        artifact-name: TestResults
-        publish-dir: ./playwright-report
+        artifact-name: Dashboard
+        publish-dir: dashboard
