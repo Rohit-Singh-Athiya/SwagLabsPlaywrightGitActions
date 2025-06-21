@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Automation Test Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; }
+    h2 { color: #333; }
+    .status { margin-top: 1rem; font-size: 1.2rem; }
+    .green { color: green; }
+    .red { color: red; }
+  </style>
+</head>
+<body>
+  <h2>🧪 Automation Test Results</h2>
+  <canvas id="resultsChart" width="400" height="400"></canvas>
+  <div class="status" id="summary"></div>
+  <p>📅 Last updated: <span id="lastRun"></span></p>
+  <script>
+    fetch('./playwright-report/test-results-json.json')
+      .then(response => response.json())
+      .then(data => {
+        const passed = data.passed || 0;
+        const failed = data.failed || 0;
+        const skipped = data.skipped || 0;
+
+        document.getElementById('summary').innerHTML =
+          `<strong class="${failed === 0 ? 'green' : 'red'}">Status:</strong> ` +
+          (failed === 0 ? "All tests passed!" : `${failed} test(s) failed`);
+
+        document.getElementById('lastRun').textContent = new Date(data.timestamp).toLocaleString();
+
+        new Chart(document.getElementById('resultsChart'), {
+          type: 'pie',
+          data: {
+            labels: ['Passed', 'Failed', 'Skipped'],
+            datasets: [{
+              label: 'Test Results',
+              data: [passed, failed, skipped],
+              backgroundColor: ['#4caf50', '#f44336', '#ff9800']
+            }]
+          }
+        });
+      });
+  </script>
+</body>
+</html>

@@ -18,7 +18,8 @@ const createProject = (country: Country): Project => ({
 export default defineConfig({
   testDir: './tests',
   reporter: [['html'], 
-             ['junit', { outputFile: './playwright-report/test-results.xml' }]],
+             ['junit', { outputFile: './playwright-report/test-results.xml' }],
+             ['json', { outputFile: './playwright-report/test-results-json.json'}]],
   projects: [createProject(envCountry)],
   use: {
     trace: 'on-first-retry',
