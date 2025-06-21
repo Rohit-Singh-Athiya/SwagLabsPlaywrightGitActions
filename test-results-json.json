@@ -1,0 +1,341 @@
+{
+  "config": {
+    "configFile": "D:\\a\\SwagLabsPlaywrightGitActions\\SwagLabsPlaywrightGitActions\\playwright.config.ts",
+    "rootDir": "D:/a/SwagLabsPlaywrightGitActions/SwagLabsPlaywrightGitActions/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "ci": {
+        "commitHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/commit/adb22f6ecd3acac3a326b8f41521c7d84fc70bbc",
+        "commitHash": "adb22f6ecd3acac3a326b8f41521c7d84fc70bbc",
+        "buildHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/actions/runs/15795952028"
+      },
+      "gitCommit": {
+        "shortHash": "adb22f6",
+        "hash": "adb22f6ecd3acac3a326b8f41521c7d84fc70bbc",
+        "subject": "Merge pull request #5 from Rohit-Singh-Athiya/develop_rohit",
+        "body": "Merge pull request #5 from Rohit-Singh-Athiya/develop_rohit\n\nDashboard fix 2",
+        "author": {
+          "name": "Rohit Singh Athiya",
+          "email": "79666285+Rohit-Singh-Athiya@users.noreply.github.com",
+          "time": 1750510803000
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "time": 1750510803000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "./playwright-report/test-results.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "./dashboard/test-results-json.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/a/SwagLabsPlaywrightGitActions/SwagLabsPlaywrightGitActions/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/commit/adb22f6ecd3acac3a326b8f41521c7d84fc70bbc",
+            "commitHash": "adb22f6ecd3acac3a326b8f41521c7d84fc70bbc",
+            "buildHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/actions/runs/15795952028"
+          },
+          "gitCommit": {
+            "shortHash": "adb22f6",
+            "hash": "adb22f6ecd3acac3a326b8f41521c7d84fc70bbc",
+            "subject": "Merge pull request #5 from Rohit-Singh-Athiya/develop_rohit",
+            "body": "Merge pull request #5 from Rohit-Singh-Athiya/develop_rohit\n\nDashboard fix 2",
+            "author": {
+              "name": "Rohit Singh Athiya",
+              "email": "79666285+Rohit-Singh-Athiya@users.noreply.github.com",
+              "time": 1750510803000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1750510803000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 2
+        },
+        "id": "Test Project",
+        "name": "Test Project",
+        "testDir": "D:/a/SwagLabsPlaywrightGitActions/SwagLabsPlaywrightGitActions/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.52.0",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "checkoutFlow.spec.ts",
+      "file": "checkoutFlow.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login Test Suite",
+          "file": "checkoutFlow.spec.ts",
+          "line": 4,
+          "column": 15,
+          "specs": [
+            {
+              "title": "Login - select product/ Checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Test Project",
+                  "projectName": "Test Project",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4288,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-06-21T13:01:08.715Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1ea2bc39f94822b872c6-466ba699480b2e0656b7",
+              "file": "checkoutFlow.spec.ts",
+              "line": 5,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "loginTest.spec.ts",
+      "file": "loginTest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login Test Suite",
+          "file": "loginTest.spec.ts",
+          "line": 6,
+          "column": 15,
+          "specs": [
+            {
+              "title": "Login with standard user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Test Project",
+                  "projectName": "Test Project",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3969,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-06-21T13:01:08.720Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "46bda2c7e3b4ca1f6cee-af442b6c467fc9b12516",
+              "file": "loginTest.spec.ts",
+              "line": 7,
+              "column": 9
+            },
+            {
+              "title": "Login with locked user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Test Project",
+                  "projectName": "Test Project",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 547,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-06-21T13:01:12.841Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "46bda2c7e3b4ca1f6cee-c1eca0c4ab84b47a64ea",
+              "file": "loginTest.spec.ts",
+              "line": 12,
+              "column": 9
+            },
+            {
+              "title": "Login with incorrect user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Test Project",
+                  "projectName": "Test Project",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 593,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-06-21T13:01:13.173Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "46bda2c7e3b4ca1f6cee-a8eb59080f99bb0869d9",
+              "file": "loginTest.spec.ts",
+              "line": 18,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "productSelection.spec.ts",
+      "file": "productSelection.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login Test Suite",
+          "file": "productSelection.spec.ts",
+          "line": 5,
+          "column": 15,
+          "specs": [
+            {
+              "title": "Login - select product ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Test Project",
+                  "projectName": "Test Project",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 788,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-06-21T13:01:13.400Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "270183306a162a3e7a2e-57308fdd47f63a356b72",
+              "file": "productSelection.spec.ts",
+              "line": 6,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-06-21T13:01:07.162Z",
+    "duration": 7092.313,
+    "expected": 5,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
