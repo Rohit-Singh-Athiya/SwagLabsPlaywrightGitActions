@@ -12,24 +12,24 @@
     "maxFailures": 0,
     "metadata": {
       "ci": {
-        "commitHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/commit/adb22f6ecd3acac3a326b8f41521c7d84fc70bbc",
-        "commitHash": "adb22f6ecd3acac3a326b8f41521c7d84fc70bbc",
-        "buildHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/actions/runs/15795952028"
+        "commitHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/commit/38fe5af935a590d23b8411acb30d436b79aa4d89",
+        "commitHash": "38fe5af935a590d23b8411acb30d436b79aa4d89",
+        "buildHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/actions/runs/15796053937"
       },
       "gitCommit": {
-        "shortHash": "adb22f6",
-        "hash": "adb22f6ecd3acac3a326b8f41521c7d84fc70bbc",
-        "subject": "Merge pull request #5 from Rohit-Singh-Athiya/develop_rohit",
-        "body": "Merge pull request #5 from Rohit-Singh-Athiya/develop_rohit\n\nDashboard fix 2",
+        "shortHash": "38fe5af",
+        "hash": "38fe5af935a590d23b8411acb30d436b79aa4d89",
+        "subject": "Merge pull request #6 from Rohit-Singh-Athiya/develop_rohit",
+        "body": "Merge pull request #6 from Rohit-Singh-Athiya/develop_rohit\n\nContents",
         "author": {
           "name": "Rohit Singh Athiya",
           "email": "79666285+Rohit-Singh-Athiya@users.noreply.github.com",
-          "time": 1750510803000
+          "time": 1750511537000
         },
         "committer": {
           "name": "GitHub",
           "email": "noreply@github.com",
-          "time": 1750510803000
+          "time": 1750511537000
         },
         "branch": "main"
       },
@@ -66,24 +66,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/commit/adb22f6ecd3acac3a326b8f41521c7d84fc70bbc",
-            "commitHash": "adb22f6ecd3acac3a326b8f41521c7d84fc70bbc",
-            "buildHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/actions/runs/15795952028"
+            "commitHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/commit/38fe5af935a590d23b8411acb30d436b79aa4d89",
+            "commitHash": "38fe5af935a590d23b8411acb30d436b79aa4d89",
+            "buildHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/actions/runs/15796053937"
           },
           "gitCommit": {
-            "shortHash": "adb22f6",
-            "hash": "adb22f6ecd3acac3a326b8f41521c7d84fc70bbc",
-            "subject": "Merge pull request #5 from Rohit-Singh-Athiya/develop_rohit",
-            "body": "Merge pull request #5 from Rohit-Singh-Athiya/develop_rohit\n\nDashboard fix 2",
+            "shortHash": "38fe5af",
+            "hash": "38fe5af935a590d23b8411acb30d436b79aa4d89",
+            "subject": "Merge pull request #6 from Rohit-Singh-Athiya/develop_rohit",
+            "body": "Merge pull request #6 from Rohit-Singh-Athiya/develop_rohit\n\nContents",
             "author": {
               "name": "Rohit Singh Athiya",
               "email": "79666285+Rohit-Singh-Athiya@users.noreply.github.com",
-              "time": 1750510803000
+              "time": 1750511537000
             },
             "committer": {
               "name": "GitHub",
               "email": "noreply@github.com",
-              "time": 1750510803000
+              "time": 1750511537000
             },
             "branch": "main"
           },
@@ -136,12 +136,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4288,
+                      "duration": 3898,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-06-21T13:01:08.715Z",
+                      "startTime": "2025-06-21T13:13:15.680Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -187,12 +187,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 3969,
+                      "duration": 3557,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-06-21T13:01:08.720Z",
+                      "startTime": "2025-06-21T13:13:15.693Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -221,12 +221,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 547,
+                      "duration": 571,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-06-21T13:01:12.841Z",
+                      "startTime": "2025-06-21T13:13:19.388Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -255,12 +255,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 593,
+                      "duration": 575,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-06-21T13:01:13.173Z",
+                      "startTime": "2025-06-21T13:13:19.738Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -306,12 +306,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 788,
+                      "duration": 792,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-06-21T13:01:13.400Z",
+                      "startTime": "2025-06-21T13:13:19.971Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -331,8 +331,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-21T13:01:07.162Z",
-    "duration": 7092.313,
+    "startTime": "2025-06-21T13:13:14.170Z",
+    "duration": 6651.762,
     "expected": 5,
     "skipped": 0,
     "unexpected": 0,
