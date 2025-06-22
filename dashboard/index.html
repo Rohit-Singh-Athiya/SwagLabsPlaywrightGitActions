@@ -28,7 +28,7 @@
       background: #fff;
       border-radius: 16px;
       box-shadow: 0 4px 24px rgba(34,34,59,0.10);
-      padding: 2rem 2rem 1.5rem 2rem;
+      padding: 5rem;
       text-align: center;
     }
     h2 {
@@ -62,6 +62,19 @@
       margin-top: 1.2rem;
       letter-spacing: 0.2px;
     }
+    .playwright-report {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: #4a85d7;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 500;
+    }
+    .playwright-report:hover {
+      background: #0c2955;
+    }
     @media (max-width: 500px) {
       .container { padding: 1rem 0.5rem; }
       .header { font-size: 1.2rem; }
@@ -71,6 +84,7 @@
 <body>
   <div class="header">🧪 Automation Test Dashboard</div>
   <div class="container">
+    <a href="./resources/index.html" target="blank" class= "playwright-report"> View Playwright Report</a> 
     <h2>Latest Test Results</h2>
     <canvas id="resultsChart" width="220" height="220"></canvas>
     <canvas id="barChart" width="320" height="180" style="margin-top: 2rem;"></canvas>
@@ -78,7 +92,7 @@
     <div class="last-updated">📅 Last updated: <span id="lastRun"></span></div>
   </div>
   <script>
-    fetch('test-results-json.json')
+    fetch('./resources/test-results-json.json')
       .then(response => response.json())
       .then(data => {
         const stats = data.stats || {};
