@@ -12,24 +12,24 @@
     "maxFailures": 0,
     "metadata": {
       "ci": {
-        "commitHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/commit/38fe5af935a590d23b8411acb30d436b79aa4d89",
-        "commitHash": "38fe5af935a590d23b8411acb30d436b79aa4d89",
-        "buildHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/actions/runs/15796053937"
+        "commitHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/commit/02edea534a161228a65664787eb47ccee7ddfaaf",
+        "commitHash": "02edea534a161228a65664787eb47ccee7ddfaaf",
+        "buildHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/actions/runs/15808669678"
       },
       "gitCommit": {
-        "shortHash": "38fe5af",
-        "hash": "38fe5af935a590d23b8411acb30d436b79aa4d89",
-        "subject": "Merge pull request #6 from Rohit-Singh-Athiya/develop_rohit",
-        "body": "Merge pull request #6 from Rohit-Singh-Athiya/develop_rohit\n\nContents",
+        "shortHash": "02edea5",
+        "hash": "02edea534a161228a65664787eb47ccee7ddfaaf",
+        "subject": "Report",
+        "body": "Report\n",
         "author": {
           "name": "Rohit Singh Athiya",
-          "email": "79666285+Rohit-Singh-Athiya@users.noreply.github.com",
-          "time": 1750511537000
+          "email": "rohitsathiya1000@gmail.com",
+          "time": 1750610172000
         },
         "committer": {
-          "name": "GitHub",
-          "email": "noreply@github.com",
-          "time": 1750511537000
+          "name": "Rohit Singh Athiya",
+          "email": "rohitsathiya1000@gmail.com",
+          "time": 1750610172000
         },
         "branch": "main"
       },
@@ -39,7 +39,9 @@
     "reporter": [
       [
         "html",
-        null
+        {
+          "outputFolder": "./dashboard/resources"
+        }
       ],
       [
         "junit",
@@ -50,7 +52,7 @@
       [
         "json",
         {
-          "outputFile": "./dashboard/test-results-json.json"
+          "outputFile": "./dashboard/resources/test-results-json.json"
         }
       ]
     ],
@@ -66,24 +68,24 @@
         "retries": 0,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/commit/38fe5af935a590d23b8411acb30d436b79aa4d89",
-            "commitHash": "38fe5af935a590d23b8411acb30d436b79aa4d89",
-            "buildHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/actions/runs/15796053937"
+            "commitHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/commit/02edea534a161228a65664787eb47ccee7ddfaaf",
+            "commitHash": "02edea534a161228a65664787eb47ccee7ddfaaf",
+            "buildHref": "https://github.com/Rohit-Singh-Athiya/SwagLabsPlaywrightGitActions/actions/runs/15808669678"
           },
           "gitCommit": {
-            "shortHash": "38fe5af",
-            "hash": "38fe5af935a590d23b8411acb30d436b79aa4d89",
-            "subject": "Merge pull request #6 from Rohit-Singh-Athiya/develop_rohit",
-            "body": "Merge pull request #6 from Rohit-Singh-Athiya/develop_rohit\n\nContents",
+            "shortHash": "02edea5",
+            "hash": "02edea534a161228a65664787eb47ccee7ddfaaf",
+            "subject": "Report",
+            "body": "Report\n",
             "author": {
               "name": "Rohit Singh Athiya",
-              "email": "79666285+Rohit-Singh-Athiya@users.noreply.github.com",
-              "time": 1750511537000
+              "email": "rohitsathiya1000@gmail.com",
+              "time": 1750610172000
             },
             "committer": {
-              "name": "GitHub",
-              "email": "noreply@github.com",
-              "time": 1750511537000
+              "name": "Rohit Singh Athiya",
+              "email": "rohitsathiya1000@gmail.com",
+              "time": 1750610172000
             },
             "branch": "main"
           },
@@ -136,12 +138,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3898,
+                      "duration": 4151,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-06-21T13:13:15.680Z",
+                      "startTime": "2025-06-22T16:37:21.813Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -187,12 +189,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 3557,
+                      "duration": 3801,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-06-21T13:13:15.693Z",
+                      "startTime": "2025-06-22T16:37:21.805Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -221,12 +223,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 571,
+                      "duration": 550,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-06-21T13:13:19.388Z",
+                      "startTime": "2025-06-22T16:37:25.757Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -255,12 +257,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 575,
+                      "duration": 566,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-06-21T13:13:19.738Z",
+                      "startTime": "2025-06-22T16:37:26.121Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -306,12 +308,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 792,
+                      "duration": 805,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-06-21T13:13:19.971Z",
+                      "startTime": "2025-06-22T16:37:26.322Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -331,8 +333,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-21T13:13:14.170Z",
-    "duration": 6651.762,
+    "startTime": "2025-06-22T16:37:20.266Z",
+    "duration": 6920.428,
     "expected": 5,
     "skipped": 0,
     "unexpected": 0,
