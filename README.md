@@ -73,6 +73,7 @@ You can view the dashboard locally with a static server (e.g., VS Code Live Serv
 
 **Dashboard URL:**  
 `https://rohit-singh-athiya.github.io/SwagLabsPlaywrightGitActions/`
+<img width="2410" height="1473" alt="image" src="https://github.com/user-attachments/assets/6b73e83a-eeaa-4b57-bea6-3d51daedeb1c" />
 
 ---
 
